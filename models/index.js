@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const trackerSchema = new Schema({
-    excercises: [{
+    excercises: [
       {
         type: {
             type: String,
