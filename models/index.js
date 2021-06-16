@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const trackerSchema = new Schema({
-    excercises: [
+    exercises: [
       {
         type: {
             type: String,
@@ -15,6 +15,7 @@ const trackerSchema = new Schema({
             required: "Enter a excercise name"
         },
         duration: {
+            
             type: Number
 
         },
